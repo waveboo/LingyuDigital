@@ -1,0 +1,55 @@
+.title{
+    padding: 3% 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.filter{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.filter li{
+    display: inline-block;
+    margin: 0 1% 2% 1%;
+    cursor: pointer;
+}
+
+.filter .filter-choose{
+    text-decoration: underline;
+}
+
+.container3{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 2%;
+}
+
+.container3 .detail{
+    margin-bottom: 5%;
+}
+
+.container3 img{
+    width: 100%;
+    vertical-align: center;
+}
+
+ul.pagination {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {
+    display: inline-block;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}

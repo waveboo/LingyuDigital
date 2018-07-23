@@ -1,0 +1,154 @@
+.About-us{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.About-us .about-us-img{
+    width: 90%;
+}
+
+.for-more{
+    padding: 1em 0;
+    font-size: 0.6em;
+}
+
+.Artists, .Painting, .Display{
+    text-align: center;
+}
+
+.title{
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.main-title{
+    font-size: 1.5em;
+}
+
+.container1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.box{
+    width: 100%;
+    background: #f8f8f8;
+    text-align: left;
+}
+
+.box img{
+    width: 96%;
+    height: 98%;
+    padding: 1%;
+    border: solid 1px rgba(0,0,0,0.5);
+    background: white;
+}
+
+#b4{
+    padding: 5%;
+    width: 90%;
+}
+
+#b5{
+    padding: 5%;
+    width: 90%;
+    padding-top: 60%;
+}
+
+.box .person-name{
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 5% 0;
+}
+
+.box .person-school{
+    font-size: 0.7em;
+}
+
+.Painting .painting-img{
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 2%;
+}
+
+#p1{
+    height: 49%;
+    margin-bottom: 5%;
+}
+#p2{
+    height: 49%;
+}
+#p3{
+    height: 39%;
+    margin-bottom: 5%;
+}
+#p4{
+    height: 59%;
+}
+#p5{
+    height: 59%;
+    margin-bottom: 5%;
+}
+#p6{
+    height: 39%;
+}
+
+.container2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.events{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.events #event-title-closest{
+    margin-top: 0;
+}
+
+.events .event-type1{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.events .event-type2{
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.event-head{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 1% 0;
+}
+
+.event-position{
+    font-weight: bold;
+    font-size: 0.8em;
+    line-height: 0.8em;
+}
+
+.event-detail{
+    font-size: 0.8em;
+    line-height: 0.8em;
+}
+
+.event-time, .event-detail-en{
+    color: darkgray;
+    font-size: 0.8em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="css/templatecss.css">
+<script>
+    $(document).ready(function () {
+        if(window.location.pathname == '/LingyuDigital/AboutUs.html'){
+            $('#About').addClass('active');
+        }
+        else if(window.location.pathname == '/LingyuDigital/Artists.html'){
+            $('#Artists').addClass('active');
+        }
+        else if(window.location.pathname == '/LingyuDigital/Painting.html'){
+            $('#Painting').addClass('active');
+        }
+        else if(window.location.pathname == '/LingyuDigital/Display.html'){
+            $('#Display').addClass('active');
+        }
+        else{
+
+        }
+    });
+</script>
+<div class="body-head">
+    <div class="logo-part">
+        <a href="index.html"><img id="Home" class="logo-img" src="img/logohead.jpg" alt="logohead" /></a>
+        <div class="logo-font">Affordable Art</div>
+    </div>
+    <ul class="nav-bar">
+        <a href="AboutUs.html"><li id="About" class="nav-li">关于我们</li></a>
+        <a href="Artists.html"><li id="Artists" class="nav-li">签约画家</li></a>
+        <a href="Painting.html"><li id="Painting" class="nav-li">艺术画作</li></a>
+        <a href="Display.html"><li id="Display" class="nav-li">事件/展览</li></a>
+    </ul>
+</div>

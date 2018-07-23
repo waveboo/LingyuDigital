@@ -1,0 +1,115 @@
+.content{
+    width: 90%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.mix, .mix1, .mix2, .mix3, .top-content, .bottom-content, .end-title{
+    width: 100%;
+}
+
+.end-tile{
+    width: 40%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.left-part{
+    width: 49%;
+    display: inline-block;
+}
+
+.right-part{
+    width: 49%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.img1 img{
+    width: 100%;
+}
+
+.img2{
+    text-align: right;
+}
+
+.img2 img{
+    width: 70%;
+}
+
+.end-title{
+    margin-bottom: 5%;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.top-content, .bottom-content, .all-content{
+    position: relative;
+}
+
+.top-content img, .bottom-content img{
+    width: 100%;
+}
+
+.top-content .minsu1{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 15%;
+}
+
+.top-content .jiuba1{
+    position: absolute;
+    width: 83%;
+    right: 0;
+    top: 0;
+}
+
+.top-content .jiuba2{
+    position: absolute;
+    width: 55%;
+    left: 0;
+    top: 60%;
+}
+
+.bottom-content .jiuba3{
+    position: absolute;
+    width: 45%;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom-content .minsu2{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: -1%;
+}
+
+
+.bottom-content .minsu3{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: 41%;
+}
+
+.all-content img{
+    width: 100%;
+}
+
+.all-content .gonggong1{
+    position: absolute;
+    width: 40%;
+    left: 5%;
+    top:60%;
+}
+
+.all-content .gonggong2{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 50%;
+}

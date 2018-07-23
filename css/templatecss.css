@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%!important; /* 20÷16=125% */
+    overflow: visible;
+}
+
+@media only screen and (max-width: 641px){
+    html {
+        font-size: 80%!important; /* 10÷16=62.5% */
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-head{
+    text-align: center;
+}
+
+.body-head .logo-part{
+    margin: 4% 0;
+}
+
+.body-head .logo-part .logo-img{
+    width: 10%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.body-head .logo-part .logo-font{
+    font-size: 1.25em;
+}
+
+.nav-bar .nav-li{
+    display: inline-block;
+    margin: 0 1%;
+    cursor: pointer;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.Contact table{
+    width: 100%;
+    text-align: center;
+    table-layout:fixed;
+    margin-bottom: 5%;
+}
+
+.Contact table th{
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 2%;
+}
+
+.Contact table td{
+    font-size: 0.8em;
+}
+
